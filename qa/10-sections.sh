@@ -8,4 +8,4 @@ else
 fi
 
 grep -qF "$QASEC" "$AB/sets/section" ||
-	abdie "QA: $QASEC not in sets/section."
+	abdie "QA (E104): $QASEC not in sets/section."
